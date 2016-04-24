@@ -1,0 +1,16 @@
+{
+
+  "name": "Sugestions",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "This Extension gives you word suggestions when writing a paper",
+  "browser_action": {
+    "default_icon": "pictures/icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://www.negafinity.com/"
+  ]
+
+}
